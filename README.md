@@ -24,6 +24,7 @@ Permission: the IMDb data is released for personal, non-commercial use, so cours
 - 'Holdout_Data.ipynb': Creates 80/20 exploration/holdout set. 
 - `Correlation_coefficients.ipynb`: Performs exploratory analysis.
 - `Prepping_models_prediction.ipynb`: Preprocessing, feature engineering, cross-validation, model comparison, and final model fitting.
+- 'final_netflix_model.pkl': Final model.
 - `requirements.txt`: Python package versions used to run the analysis.
 
 ## Reproducing Our Analysis
@@ -51,7 +52,9 @@ Each algorithm uses two feature sets:
 
 **Set 2:** All Set 1 predictors, plus IMDb rating, Rotten Tomatoes score, and IMDb vote count.
 
-The selected model is a classification tree using Set 2, with maximum depth 5 and minimum leaf size 25. The classification threshold is 0.5.
+**Set 2:** All Set 2 predictors, plus release year.
+
+The selected model is a classification tree using Set 3, with maximum depth 8 and minimum leaf size 100. The classification threshold is 0.5.
 
 ## Reproducibility
 
