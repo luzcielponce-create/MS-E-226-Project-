@@ -22,7 +22,7 @@ Permission: the IMDb data is released for personal, non-commercial use, so cours
 
 - `Final_Copy_of_TV_Shows_&_Movies_Streaming_Data.ipynb`: Cleans and merges the source datasets and constructs the Netflix availability outcome.
 - 'Holdout_Data.ipynb': Creates 80/20 exploration/holdout set. 
-- `streaming_data_correlation_coefficients.ipynb`: Performs exploratory analysis.
+- `Correlation_coefficients.ipynb`: Performs exploratory analysis.
 - `Prepping_models_prediction.ipynb`: Preprocessing, feature engineering, cross-validation, model comparison, and final model fitting.
 - `requirements.txt`: Python package versions used to run the analysis.
 
